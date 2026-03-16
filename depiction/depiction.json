@@ -1,0 +1,150 @@
+{
+  "minVersion": "0.1",
+  "headerImage": "https://raw.githubusercontent.com/BarabaDev/SentinelCrash/main/depiction/header.png",
+  "tintColor": "#00BCD4",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "## The most advanced rootless CrashReporter\n\nReal-time crash monitoring across 19 system paths with automatic jailbreak detection and iOS version range validation.\n\n**35 languages** · **iOS 15–18**",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Supported Jailbreaks"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Dopamine",
+          "text": "iOS 15.0 – 16.6.1"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "palera1n",
+          "text": "iOS 15.0 – 18.7"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "NathanLR",
+          "text": "iOS 16.5.1 – 17.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Procursus",
+          "text": "Generic Rootless"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Crash Detection"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "SIGSEGV · SIGABRT · SIGBUS · SIGFPE · SIGILL · SIGTRAP · EXC_BAD_ACCESS · EXC_CRASH · EXC_RESOURCE · EXC_GUARD · EXC_BAD_INSTRUCTION · Watchdog · Jetsam · Kernel Panics · Tweak/DYLIB · JB Errors",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Features"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **Dashboard** — Live monitoring, crash stats, JB environment\n- **Crash List** — Visible/Relevant/System/Noise filtering\n- **Crash Detail** — Summary, Stack Trace (classic + IPS JSON + Microstackshot), syntax-highlighted Raw Log\n- **Tweak Conflict Detector** — Ranks tweaks by danger score\n- **Auto-Blame Engine** — Pinpoints crash culprit\n- **Crash Grouping** — Trend tracking across similar crashes\n- **Crash Diff** — Side-by-side comparison\n- **Timeline** — Crash vs tweak install correlation\n- **Live Console** — Real-time monitoring feed\n- **Export** — JSON, text, Markdown reports\n- **Symbolication** — Binary Image offset resolution\n- **iCloud Sync** — Read/hidden state across devices\n- **Analytics** — 7-day charts, hourly heatmap, top offenders\n- **dpkg Integration** — Package browser with dylib listing",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Languages (35)"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "EN · HR · DE · FR · ES · IT · PT-BR · RU · ZH-Hans · ZH-Hant · JA · KO · AR · TR · PL · NL · VI · TH · UK · ID · SK · CS · HU · RO · BG · SR · SL · DA · SV · NB · FI · EL · HE · MS · HI",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Information"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Developer",
+          "text": "BarabaDev"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "1.1.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Compatibility",
+          "text": "iOS 15.0+ (Rootless /var/jb)"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Architecture",
+          "text": "arm64"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Source Code on GitHub",
+          "action": "https://github.com/BarabaDev/SentinelCrash",
+          "openExternal": true,
+          "tintColor": "#00BCD4"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Follow @BarabaDev on Twitter",
+          "action": "https://twitter.com/BarabaDev",
+          "openExternal": true,
+          "tintColor": "#1DA1F2"
+        }
+      ],
+      "class": "DepictionStackView"
+    },
+    {
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.1.0"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **Symbolication** — Binary Image offset resolution\n- **iCloud Sync** — Syncs read/hidden/favorite state across devices\n- **35 Languages** — Full localization (178 keys each)\n- **Sileo Depiction** — Native depiction page with header\n- **Smart Default Tab** — Opens most useful tab per crash type\n- **Auto-Back Fix** — Scan no longer pops navigation\n- Build script shows actual Swift errors",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.0.8"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Tweak Conflict Detector, Auto-Blame, Crash Grouping\n- Export (JSON/Text/Markdown), dpkg Integration\n- Crash Diff, Timeline, Live Console\n- JB detection with iOS ranges (Dopamine/palera1n/NathanLR)\n- Microstackshot + IPS JSON stack trace parsing\n- Syntax-highlighted Raw Log with JSON coloring\n- JetsamEvent large log protection\n- Persistent read/unread state\n- Enhanced notifications with severity levels\n- 11 bug fixes from v1.0.7",
+          "useSpacing": true
+        }
+      ],
+      "class": "DepictionStackView"
+    }
+  ],
+  "class": "DepictionTabView"
+}
