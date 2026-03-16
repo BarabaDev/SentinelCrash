@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Rootless jailbreak file access entitlements -->
+	<key>com.apple.private.security.no-sandbox</key>
+	<true/>
+	<key>com.apple.private.security.storage.AppDataContainers</key>
+	<true/>
+	<!-- Universal storage access — broader than AppDataContainers, needed for /var/mobile/Library/Logs -->
+	<key>com.apple.private.security.storage.universal-access</key>
+	<true/>
+	<key>platform-application</key>
+	<true/>
+	<key>com.apple.private.security.no-container</key>
+	<true/>
+	<key>get-task-allow</key>
+	<true/>
+	<key>com.apple.private.read-file-system-metadata</key>
+	<true/>
+	<key>com.apple.private.vfs.allow-low-space-writes</key>
+	<true/>
+	<!-- iOS 17+ requires this for reading crash log directories -->
+	<key>com.apple.private.security.disk-device-access</key>
+	<true/>
+	<!-- Access to /var/db/diagnostics/ and Apple diagnostic logs -->
+	<key>com.apple.private.logging.diagnostic</key>
+	<true/>
+	<!-- iCloud Key-Value Store for syncing read/hidden state -->
+	<key>com.apple.developer.ubiquity-kvstore-identifier</key>
+	<string>$(TeamIdentifierPrefix)com.barabadev.sentinelcrash</string>
+</dict>
+</plist>
