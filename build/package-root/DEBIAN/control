@@ -1,0 +1,27 @@
+Package: com.barabadev.sentinelcrash
+Name: SentinelCrash
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Depends: firmware (>= 15.0)
+Description: The most advanced rootless CrashReporter for iOS 15-18.
+ Real-time crash monitoring across 19 system paths with automatic jailbreak detection.
+ .
+ Dopamine, palera1n, NathanLR, Procursus - iOS version range validation.
+ Full signal and exception coverage including watchdog, jetsam, kernel panics, tweak/dylib crashes.
+ .
+ Dashboard - live monitoring, JB environment, crash stats.
+ Crash Detail - stack trace (classic, IPS JSON, microstackshot) + raw log.
+ Auto-Blame - identifies crash culprit via stack analysis and install correlation.
+ Tweak Conflict Detector - ranks tweaks by danger score.
+ Crash Grouping, Crash Diff, Timeline, Live Console.
+ Export (JSON/text/Markdown), Symbolication, Analytics.
+ iCloud Sync, 35 languages.
+Author: BarabaDev
+Maintainer: BarabaDev
+Section: Utilities
+Priority: optional
+Icon: https://barabadev.com/repo/icons/com.barabadev.sentinelcrash.png
+Homepage: https://github.com/BarabaDev/SentinelCrash
+Depiction: https://barabadev.github.io/SentinelCrash/depiction.json
+SileoDepiction: https://barabadev.github.io/SentinelCrash/depiction.json
+Tags: role::hacker, compatible_min::ios15.0, rootless

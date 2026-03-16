@@ -1,0 +1,10 @@
+#!/bin/sh
+set -e
+
+APP_PATH="/var/jb/Applications/SentinelCrash.app"
+
+if command -v uicache >/dev/null 2>&1 && [ -d "$APP_PATH" ]; then
+    uicache -u "$APP_PATH" || true
+fi
+
+exit 0
